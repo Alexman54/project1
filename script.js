@@ -1,4 +1,4 @@
-let numberOfFilms = prompt('Сколько фильмов вы уже посмотрели?');
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', "0");
 console.log(numberOfFilms);
 
 const personalMovieDB = {
